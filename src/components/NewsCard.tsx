@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import { Calendar } from 'lucide-react'
 
@@ -35,7 +36,7 @@ const NewsCard = ({ news }: NewsProps) => {
         <p className="text-gray-600 mb-4 line-clamp-3">{news.excerpt}</p>
         <Link 
           href={`/news/${news.id}`} 
-          className="text-primary-600 hover:text-primary-700 font-medium transition-colors"
+          className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
         >
           อ่านเพิ่มเติม →
         </Link>
